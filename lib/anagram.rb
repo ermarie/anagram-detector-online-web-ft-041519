@@ -9,7 +9,7 @@ class Anagram
       if anagram.split("").sort == @word.split("").sort
         matches << anagram
       else
-
+        matches
       end
     end
   end
