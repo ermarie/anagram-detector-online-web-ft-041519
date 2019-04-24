@@ -6,7 +6,7 @@ class Anagram
   def match(array)
     new_word = @word.split("").sort
     array.each do |anagram|
-      
+
     end
   end
 
