@@ -8,10 +8,9 @@ class Anagram
     array.each do |anagram|
       if anagram.split("").sort == @word.split("").sort
         matches << anagram
-      else
-        matches
       end
     end
+    matches
   end
 
   def initialize(word)
